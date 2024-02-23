@@ -4,6 +4,6 @@ const OTPSchema=mongoose.Schema({
     otp:{type:String},
     status:{type:Number,default:0},
 },{timestamps: true,versionKey:false});
-const OTPModel=mongoose.model('otps',OTPSchema);
+const OTPModel=mongoose.model('otp',OTPSchema);
 module.exports=OTPModel
 
