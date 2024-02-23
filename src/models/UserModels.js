@@ -6,6 +6,6 @@ const DataSchema=mongoose.Schema({
     mobile:{type:String},
     password:{type:String},
 },{timestamps: true,versionKey:false});
-const UsersModel=mongoose.model('users',DataSchema);
+const UsersModel=mongoose.model('user',DataSchema);
 module.exports=UsersModel
 
